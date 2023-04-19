@@ -1,0 +1,41 @@
+.footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(155, 192, 218);
+  /* height: 60px; */
+}
+.containerr {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8em;
+}
+.containerr div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+}
+
+.containerr div span {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  align-items: center;
+  width: 65%;
+}
+
+.containerr div span input {
+  height: 30px;
+  max-width: 200px;
+  width: 100%;
+  border: 1px solid rgba(202, 202, 202, 0.344);
+  border-radius: 5px;
+  padding: 0.5em;
+}
